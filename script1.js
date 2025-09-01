@@ -392,7 +392,7 @@ function createBox(item) {
   const { image, text } = item;
   box.classList.add("box");
    box.innerHTML = `
-    <img src='https://github.com/UmendraBisen2/Photos-/blob/main/IMG_20250901_223620.jpg?raw=true' alt="${text}"/>
+    <img src='https://github.com/UmendraBisen2/Photos-/blob/main/secretary-holding-pen.jpg?raw=true' alt="${text}"/>
     <p class="info">${text}</p>
     `; 
   box.addEventListener("click", () => handleSpeech(text, box));
