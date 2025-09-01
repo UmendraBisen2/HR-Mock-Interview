@@ -388,11 +388,11 @@ const data = [
 ];
 
 function createBox(item) {
-  const box = document.createElement("div");
+  const box = document.createElement("div");//https://github.com/UmendraBisen2/Photos-/blob/main/secretary-holding-pen.jpg?raw=true
   const { image, text } = item;
   box.classList.add("box");
    box.innerHTML = `
-    <img src='https://github.com/UmendraBisen2/Photos-/blob/main/secretary-holding-pen.jpg?raw=true' alt="${text}"/>
+    <img src=' https://github.com/UmendraBisen2/Photos-/blob/main/upp.jpg?raw=true' alt="${text}"/> 
     <p class="info">${text}</p>
     `; 
   box.addEventListener("click", () => handleSpeech(text, box));
